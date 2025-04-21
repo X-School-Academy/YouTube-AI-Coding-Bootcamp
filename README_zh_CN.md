@@ -4,7 +4,7 @@
 
 ### 课程内容
 
-1. [项目介绍](01-introduction/README_zh_CN.md)
+1. [总体介绍](01-introduction/README_zh_CN.md)
 
 ### **时代背景**
 
