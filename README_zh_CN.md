@@ -2,6 +2,10 @@
 
 [English Version](README.md)
 
+### 课程内容
+
+1. [项目介绍](01-introduction/README_zh_CN.md)
+
 ### **时代背景**
 
 - **氛围编程（Vibe Coding）**：一种全新的编程方式，用户无需任何编程基础，仅需借助 AI 的能力，即可完成一个完整的编程项目。

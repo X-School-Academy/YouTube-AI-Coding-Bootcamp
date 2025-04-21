@@ -2,6 +2,10 @@
 
 [中文版](README_zh_CN.md)
 
+### Contents of the Course
+
+1. [Introduction of the project](01-introduction/README.md)
+
 ### **Background**
 
 - **Vibe Coding**: An innovative approach to programming where users can complete entire coding projects without any prior programming experience by leveraging AI capabilities.
