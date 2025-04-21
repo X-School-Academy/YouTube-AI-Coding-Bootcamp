@@ -4,7 +4,7 @@
 
 ### Contents of the Course
 
-1. [Introduction of the project](01-introduction/README.md)
+1. [Introduction](01-introduction/README.md)
 
 ### **Background**
 
