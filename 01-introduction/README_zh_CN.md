@@ -17,7 +17,7 @@
 
 要求给出所有的项目文件名称，目录结构和源代码。
 
-AI 输出: [Google](gemini/1.md) | [Claude](claude/1.md) | [OpenAI](chatgpt/1.md)
+AI 输出: [Google](ai_output_zh_CN/gemini/1.md) | [Claude](ai_output_zh_CN/claude/1.md) | [OpenAI](ai_output_zh_CN/chatgpt/1.md)
 
 ### 2. 要求AI对完成的工作进行总结
 
@@ -29,7 +29,7 @@ AI 输出: [Google](gemini/1.md) | [Claude](claude/1.md) | [OpenAI](chatgpt/1.md
 4. 前端与后端指南 编码规范、架构模式、文件夹结构、API 协议约定、测试策略和风格规则——分别针对客户端和服务器端。
 5. API、SDK 与技术参考 整合所有外部依赖：第三方 API、SDK、库和平台的目录，包含端点、版本号、配置示例和快速使用说明。
 
-AI 输出: [Google](gemini/2.md) | [Claude](claude/2.md) | [OpenAI](chatgpt/2.md)
+AI 输出: [Google](ai_output_zh_CN/gemini/2.md) | [Claude](ai_output_zh_CN/claude/2.md) | [OpenAI](ai_output_zh_CN/chatgpt/2.md)
 
 ### 3. 让AI给出氛围学习法需要学习的要点
 
@@ -56,4 +56,4 @@ AI 输出: [Google](gemini/2.md) | [Claude](claude/2.md) | [OpenAI](chatgpt/2.md
 
 然后我可以轻松的使用AI完成这个项目。
 
-AI 输出: [Google](gemini/3.md) | [Claude](claude/3.md) | [OpenAI](chatgpt/3.md)
+AI 输出: [Google](ai_output_zh_CN/gemini/3.md) | [Claude](ai_output_zh_CN/claude/3.md) | [OpenAI](ai_output_zh_CN/chatgpt/3.md)
