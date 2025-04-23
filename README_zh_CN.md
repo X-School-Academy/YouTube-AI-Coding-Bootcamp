@@ -5,6 +5,7 @@
 ### 课程内容
 
 1. [总体介绍](01-introduction/README_zh_CN.md)
+2. [Linux云容器与FFmpeg视频编辑软件](02-linux-ffmpeg/README_zh_CN.md)
 
 ### **时代背景**
 
