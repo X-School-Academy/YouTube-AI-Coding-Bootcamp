@@ -62,7 +62,6 @@ Write a user manual and testing procedure for this shell script to ensure it wor
 3. Considering different FFmpeg versions
 4. Error handling
 
-AI Outputs: [Google](ai_output_en/gemini/5.md) | [Claude](ai_output_en/claude/5.md) | [OpenAI](ai_output_en/chatgpt/5.md)
 
 ### 6. Ask AI to Summarize Completed Work
 
