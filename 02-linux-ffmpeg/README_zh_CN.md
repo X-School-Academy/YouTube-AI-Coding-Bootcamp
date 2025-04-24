@@ -44,9 +44,13 @@
 ```
 请按照以上格式输出5个场景的电子书文字和图片AI提示词
 
+AI 输出: [Google](ai_output_zh_CN/gemini/3.md) | [Claude](ai_output_zh_CN/claude/3.md) | [OpenAI](ai_output_zh_CN/chatgpt/3.md)
+
 ### 4. AI提示词 - 生成一个shell脚本， 使用FFmpeg生成电子书视频
 
 我有五个图片，每一个图片对应一个mp3声音文件，请生成一个Linux Shell脚本， 使用ffmpeg生成一个电子书视频
+
+AI 输出: [Google](ai_output_zh_CN/gemini/4.md) | [Claude](ai_output_zh_CN/claude/4.md) | [OpenAI](ai_output_zh_CN/chatgpt/4.md)
 
 ### 5. AI提示词 - 用户手册及测试验收流程
 
@@ -57,6 +61,8 @@
 3. 考虑不同的FFmpeg版本
 4. 错误处理
 
+AI 输出: [Google](ai_output_zh_CN/gemini/5.md) | [Claude](ai_output_zh_CN/claude/5.md) | [OpenAI](ai_output_zh_CN/chatgpt/5.md)
+
 ### 6. 要求AI对完成的工作进行总结
 
 请简单总结一下这个Linux Shell脚本， 按下面的要点（仅总结适用部分）：
@@ -66,6 +72,8 @@
 3. 技术栈概览 说明技术选择的“为什么”和“什么”：语言、框架、库、云服务与工具，以及版本说明。
 4. 前端与后端指南 编码规范、架构模式、文件夹结构、API 协议约定、测试策略和风格规则——分别针对客户端和服务器端。
 5. API、SDK 与技术参考 整合所有外部依赖：第三方 API、SDK、库和平台的目录，包含端点、版本号、配置示例和快速使用说明。
+
+AI 输出: [Google](ai_output_zh_CN/gemini/6.md) | [Claude](ai_output_zh_CN/claude/6.md) | [OpenAI](ai_output_zh_CN/chatgpt/6.md)
 
 ### 7. 让AI给出氛围学习法需要学习的要点
 
@@ -91,3 +99,5 @@
 - 检查和测试AI完成的任务，并发现或提出问题
 
 然后我可以轻松的使用AI完成这个项目。
+
+AI 输出: [Google](ai_output_zh_CN/gemini/7.md) | [Claude](ai_output_zh_CN/claude/7.md) | [OpenAI](ai_output_zh_CN/chatgpt/7.md)
