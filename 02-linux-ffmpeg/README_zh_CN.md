@@ -1,5 +1,7 @@
 # Linux云容器与FFmpeg视频编辑软件
 
+[English Version](README.md)
+
 ### 1. 氛围学习网络搜素关键词 （Google, YouTube or AI）
 
 - 如何创建GitHub账号
