@@ -59,7 +59,11 @@ AI 输出: [Google](ai_output_zh_CN/gemini/4.md) | [Claude](ai_output_zh_CN/clau
 
 电子书视频:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kfrwrnro6Ao?si=UVq7m8ar3OLufcYB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div align="left">
+      <a href="https://www.youtube.com/watch?v=kfrwrnro6Ao">
+         <img src="https://raw.githubusercontent.com/X-School-Academy/YouTube-AI-Coding-Bootcamp/refs/heads/main/02-linux-ffmpeg/ai_output_zh_CN/ebook_video_cover.png" style="width:100%;">
+      </a>
+</div>
 
 ### 5. AI提示词 - 用户手册及测试验收流程
 
