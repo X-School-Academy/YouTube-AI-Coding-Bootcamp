@@ -57,6 +57,10 @@ AI 输出: [Google](ai_output_zh_CN/gemini/4.md) | [Claude](ai_output_zh_CN/clau
 
 成功生成电子书视频的脚本：[create_ebook_video.sh](ai_output_zh_CN/create_ebook_video.sh)
 
+电子书视频:
+
+[![电子书视频](https://raw.githubusercontent.com/X-School-Academy/YouTube-AI-Coding-Bootcamp/refs/heads/main/02-linux-ffmpeg/ai_output_zh_CN/ebook_video_cover.png)](https://www.youtube.com/watch?v=kfrwrnro6Ao 电子书视频)
+
 ### 5. AI提示词 - 用户手册及测试验收流程
 
 对于这个Shell脚本， 请写一个用户手册及测试验收流程，以保证这个脚本在各种情况下都可以正常工作：
