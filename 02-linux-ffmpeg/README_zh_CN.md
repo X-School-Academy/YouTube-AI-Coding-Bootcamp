@@ -57,7 +57,7 @@ AI 输出: [Google](ai_output_zh_CN/gemini/4.md) | [Claude](ai_output_zh_CN/clau
 
 成功生成电子书视频的脚本：[create_ebook_video.sh](ai_output_zh_CN/create_ebook_video.sh)
 
-电子书视频:
+生成的视频:
 
 <div align="left">
       <a href="https://www.youtube.com/watch?v=kfrwrnro6Ao">

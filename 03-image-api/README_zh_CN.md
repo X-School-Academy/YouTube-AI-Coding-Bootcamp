@@ -63,7 +63,18 @@ with open("output.png", "wb") as f:
 
 Prompt: 
 
-Convert the markdown text to json, provide mp3 file but keep the image creation prompts 
+Convert the markdown text below into json format, and replace the text to audio file for each scene from audio1.mp3 to audio5.mp3 but keep the image creation prompts 
+
+Here is the markdown text:
+
+\<markdown\>
+  \<\<The orignal markdown text\>\>
+\</markdown\>
+
+The output should be in Json foramt below
+
+\<output\>
+\</output\>
 
 2. Ask to write Python script to use  OpenAI `gpt-image-1` model api
 
