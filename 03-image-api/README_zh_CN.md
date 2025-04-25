@@ -20,7 +20,7 @@
 1. 请检查这个脚本，列出我需要掌握哪些知识点，以便能够大致理解这个脚本的内容。
 2. 请检查提供的 Shell 脚本，说明如何使用它来创建有声视频。 请给出文字版步骤说明，并用 Mermaid 流程图展示。
 
-Shell 脚本：[create_ebook_video.sh](ai_output_zh_CN/create_ebook_video.sh)
+Shell 脚本：[create_ebook_video.sh](../02-linux-ffmpeg/ai_output_zh_CN/create_ebook_video.sh)
 
 ### 3. 学习如何查看API文档： OpenAI 最新图片生成模型 —— `gpt-image-1`
 
