@@ -6,6 +6,7 @@
 
 - 如何创建GitHub账号
 - 如何使用GitHub Codespaces
+- 什么是markdown格式文本
 - 什么是TTS
 - 如何使用视频编辑软件 FFmpeg
 
@@ -53,6 +54,8 @@ AI 输出: [Google](ai_output_zh_CN/gemini/3.md) | [Claude](ai_output_zh_CN/clau
 我有五个图片，每一个图片对应一个mp3声音文件，请生成一个Linux Shell脚本， 使用ffmpeg生成一个电子书视频
 
 AI 输出: [Google](ai_output_zh_CN/gemini/4.md) | [Claude](ai_output_zh_CN/claude/4.md) | [OpenAI](ai_output_zh_CN/chatgpt/4.md)
+
+成功生成电子书视频的脚本：[create_ebook_video.sh](ai_output_zh_CN/create_ebook_video.sh)
 
 ### 5. AI提示词 - 用户手册及测试验收流程
 

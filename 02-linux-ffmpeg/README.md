@@ -6,6 +6,7 @@
 
 - How to create a GitHub account
 - How to use GitHub Codespaces
+- What is markdown format text
 - What is TTS (Text-to-Speech)?
 - How to use FFmpeg video editing software
 
