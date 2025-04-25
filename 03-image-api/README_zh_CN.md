@@ -68,12 +68,15 @@ Convert the markdown text below into json format, and replace the text to audio 
 Here is the markdown text:
 
 \<markdown\>
+
   \<\<The orignal markdown text\>\>
+  
 \</markdown\>
 
 The output should be in Json foramt below
 
 \<output\>
+
 \</output\>
 
 2. Ask to write Python script to use  OpenAI `gpt-image-1` model api
