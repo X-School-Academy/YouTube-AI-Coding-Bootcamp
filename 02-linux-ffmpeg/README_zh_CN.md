@@ -2,9 +2,11 @@
 
 [English Version](README.md)
 
-## ▶️ 油管直播视频
+### ▶️ 油管直播视频
 
 [![Watch on YouTube](https://img.youtube.com/vi/rq3lkfV9dic/mqdefault.jpg)](https://youtu.be/rq3lkfV9dic)
+
+[播放](https://youtu.be/rq3lkfV9dic)
 
 ### 1. 氛围学习网络搜素关键词 （Google, YouTube or AI）
 
