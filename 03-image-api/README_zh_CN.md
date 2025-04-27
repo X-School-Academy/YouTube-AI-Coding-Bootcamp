@@ -109,7 +109,9 @@ Markdown 文本：
 请参考下面提供的 Linux Shell 脚本
 
 \<shell_script\>
+
     \<\<FFmpeg Shell 脚本\>\>
+
 \</shell_script\>
 
 然后请创建一个 Python 脚本，要求如下：
@@ -125,6 +127,8 @@ Markdown 文本：
     }
 ]
 ```
+
+AI 输出: [story.json](./ai_output_zh_CN/story.json)
 
 2. 自动根据 JSON 文件中每个场景的 `image_prompt`，调用 OpenAI 最新的 `gpt-image-1` API 生成图片。  
 参考代码如下：
@@ -151,4 +155,8 @@ with open("output.png", "wb") as f:
 
 4. 在 Python 脚本最后输出生成的视频文件名。  
 
-**关于如何调用 ffmpeg 命令，可以参考前面提供的 Shell 脚本。**
+关于如何调用 ffmpeg 命令，可以参考前面提供的 Shell 脚本。
+
+> 原始 Linux 脚本文件：[文本链接](../02-linux-ffmpeg/ai_output_zh_CN/create_ebook_video.sh)
+
+AI 输出: [Google](ai_output_zh_CN/gemini/4.2.md) | [Claude](ai_output_zh_CN/claude/4.2.md) | [OpenAI](ai_output_zh_CN/chatgpt/4.2.md)
