@@ -2,6 +2,12 @@
 
 [English Version](README.md)
 
+
+## ▶️ 油管直播视频
+
+[![Watch on YouTube](https://img.youtube.com/vi/ZveQGqvFnp4/maxresdefault.jpg)](https://youtu.be/ZveQGqvFnp4)
+
+
 ### AI 提示词
 
 #### 1. 使用AI进行氛围编程
