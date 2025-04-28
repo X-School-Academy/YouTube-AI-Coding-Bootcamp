@@ -165,13 +165,13 @@ with open("output.png", "wb") as f:
 
 > 原始 Linux 脚本文件：[文本链接](../02-linux-ffmpeg/ai_output_zh_CN/create_ebook_video.sh)
 
-AI 输出: [Google](ai_output_zh_CN/gemini/4.2.md) | [Claude](ai_output_zh_CN/claude/4.2.md) | [OpenAI](ai_output_zh_CN/chatgpt/4.2.md)
+AI 输出: 1. [Google](ai_output_zh_CN/gemini/4.2.md) | 2. [Claude](ai_output_zh_CN/claude/4.2.md) | 3. [OpenAI](ai_output_zh_CN/chatgpt/4.2.md)
 
 ### 5. 要求AI评价三个不同AI生成的脚本
 
 > 我有三个由不同 AI 生成的代码文件，应如何评估才能选出最优秀的那个？
 
-请评价下面三个脚本从以下各个方面:
+请评价下面三个脚本从以下几个方面:
 
 1. 正确性：功能需求是否全部满足？
 2. 性能：运行时的速度和内存占用是否达标？
@@ -182,9 +182,15 @@ AI 输出: [Google](ai_output_zh_CN/gemini/4.2.md) | [Claude](ai_output_zh_CN/cl
 7. 安全性：有无引入安全漏洞或不安全的编码模式？
 8. 文档：是否有清晰的注释、docstring 或 README 来说明使用方法？
 
+AI 输出: [Google](ai_output_zh_CN/gemini/5.md)
+
+最终我们采用脚本: [文件](ai_output_zh_CN/generate_story_video.py)
+
 ### 6. 要求AI编写用户手册
 
 > 如果要求AI对一个软件脚本编写用户手册， 我需要要求AI考虑哪些方面？
+
+请对**下面的代码**， 编写一个用户手册， 考虑以下几个因素:
 
 1. 目标和范围： 功能定位与业务背景， 目标用户， 使用场景及适用环境
 2. 前置条件： 环境需求， 权限要求，配置项及默认值
@@ -194,9 +200,15 @@ AI 输出: [Google](ai_output_zh_CN/gemini/4.2.md) | [Claude](ai_output_zh_CN/cl
 6. 安全与权限
 7. 附录： 术语表， FAQ 常见问题
 
+[文件](ai_output_zh_CN/generate_story_video.py)
+
+AI 输出: [Google](ai_output_zh_CN/gemini/6.md)
+
 ### 7. 要求AI编写测试与验收流程
 
 > 如果要求AI对一个软件脚本编写测试与验收流程， 我需要要求AI考虑哪些方面？
+
+请对**下面的代码***， 编写一个测试与验收流程， 考虑以下几个因素:
 
 1. 测试概述: 测试目标
 2. 测试环境: 环境搭建, 数据准备
@@ -204,13 +216,23 @@ AI 输出: [Google](ai_output_zh_CN/gemini/4.2.md) | [Claude](ai_output_zh_CN/cl
 4. 测试执行流程: 计划, 测试脚本或自动化框架, 结果与报告
 5. 验收标准
 
+[文件](ai_output_zh_CN/generate_story_video.py)
+
+AI 输出: [Google](ai_output_zh_CN/gemini/7.md)
+
 ### 8. 要求AI对项目进行技术性总结
+
+请对**下面的代码**使用的技术进行一个总结， 需要考虑以下几个因素:
 
 1. 项目需求： 我们所要构建内容的高层概述：目标、用户故事、功能性和非功能性需求，以及验收标准。
 2. 应用流程及流程图： 分步骤映射应用的用户旅程和系统交互，并配以清晰的流程图。
 3. 技术栈概览： 说明技术选择的“为什么”和“什么”：语言、框架、库、云服务与工具，以及版本说明。
 4. 前端与后端指南： 编码规范、架构模式、文件夹结构、API 协议约定、测试策略和风格规则——分别针对客户端和服务器端。
 5. API、SDK 与技术参考 整合所有外部依赖：第三方 API、SDK、库和平台的目录，包含端点、版本号、配置示例和快速使用说明。
+
+[文件](ai_output_zh_CN/generate_story_video.py)
+
+AI 输出: [Google](ai_output_zh_CN/gemini/8.md)
 
 ### 9. 让AI给出氛围学习法需要学习的要点
 
@@ -227,7 +249,7 @@ AI 输出: [Google](ai_output_zh_CN/gemini/4.2.md) | [Claude](ai_output_zh_CN/cl
 - 刚开始使用 Linux 系统  
 - 没有编程概念
 
-请按照氛围学习法和氛围编程的要求，列出我需要学习哪些基本的知识点，我才能具备一下技能：
+请按照氛围学习法和氛围编程的要求，对**下面的代码**列出我需要学习哪些基本的知识点，我才能具备以下技能：
 
 - 我可以用专业的语言给AI下达开发命令  
 - 在AI开发过程中，我可以使用专业语言和AI进行沟通
@@ -235,3 +257,7 @@ AI 输出: [Google](ai_output_zh_CN/gemini/4.2.md) | [Claude](ai_output_zh_CN/cl
 - 检查和测试AI完成的任务，并发现或提出问题
 
 然后我可以轻松的使用AI完成这个项目。
+
+[文件](ai_output_zh_CN/generate_story_video.py)
+
+AI 输出: [Google](ai_output_zh_CN/gemini/9.md)
