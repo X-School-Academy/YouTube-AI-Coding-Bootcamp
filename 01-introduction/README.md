@@ -6,7 +6,7 @@
 
 #### 1. Using AI for Vibe Coding
 
-Create an automated video generation project using Python, HTML, CSS, and JavaScript:
+Create an automated AI video generation project using Python, HTML, CSS, and JavaScript:
 
 - Integrate OpenAI's text, speech, and image generation capabilities
 - Achieve automated creation of audiobook-style videos
