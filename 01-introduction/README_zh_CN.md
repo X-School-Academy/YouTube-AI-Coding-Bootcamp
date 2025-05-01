@@ -9,6 +9,15 @@
 
 [播放](https://youtu.be/ZveQGqvFnp4)
 
+### 氛围学习关键词
+
+- 氛围学习
+- 氛围编程
+- Python
+- HTML
+- CSS
+- JavaScript
+
 ### AI 提示词
 
 #### 1. 使用AI进行氛围编程

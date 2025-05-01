@@ -10,14 +10,12 @@
 
 ### 1. 氛围学习关键词（Google、YouTube 或 AI 搜索）
 
-- 什么是 JSON 文本格式
-- 什么是 RESTful API
-- 什么是 curl 命令
-- OpenAI 图片API文档
+- JSON
+- RESTful API
+- CURL
 - Base64 编码
 - Mermaid 流程图
 - 吉卜力风格漫画风格
-- 什么是 Python
 
 ### 2. 复习上节课创建的视频脚本
 

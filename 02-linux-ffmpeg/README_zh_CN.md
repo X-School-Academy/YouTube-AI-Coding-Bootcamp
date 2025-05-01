@@ -8,13 +8,15 @@
 
 [播放](https://youtu.be/rq3lkfV9dic)
 
-### 1. 氛围学习网络搜素关键词 （Google, YouTube or AI）
+### 1. 氛围学习关键词
 
-- 如何创建GitHub账号
-- 如何使用GitHub Codespaces
-- 什么是markdown格式文本
-- 什么是TTS
-- 如何使用视频编辑软件 FFmpeg
+- Markdown
+- TTS
+- GitHub
+- Cloud Container
+- Linux
+- Linux Shell
+- FFmpeg
 
 
 ### 2. 免费海螺文字，声音，视频生成网站
