@@ -8,7 +8,7 @@
 
 [播放](https://youtu.be/3F5D09KyjFE)
 
-### 1. 氛围学习关键词（Google、YouTube 或 AI 搜索）
+### 1. 氛围学习关键词
 
 - JSON
 - RESTful API
