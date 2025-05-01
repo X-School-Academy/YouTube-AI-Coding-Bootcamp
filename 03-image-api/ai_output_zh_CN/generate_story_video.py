@@ -46,8 +46,8 @@ def generate_image(prompt, output_path, scene_index):
             model=IMAGE_MODEL,
             prompt=full_prompt,
             n=1,
-            size=IMAGE_SIZE, # 使用 OpenAI 支持的标准尺寸
-            response_format="b64_json" # 请求 base64 编码的图片数据
+            size=IMAGE_SIZE # 使用 OpenAI 支持的标准尺寸
+            #response_format="b64_json" # This parameter isn't supported for gpt-image-1 which will always return base64-encoded images.
         )
         # 从响应中获取 base64 数据
         if response.data and response.data[0].b64_json:
