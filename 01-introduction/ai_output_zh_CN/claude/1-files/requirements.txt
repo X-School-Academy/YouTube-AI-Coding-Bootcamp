@@ -1,7 +1,7 @@
-flask==2.3.3
-flask-cors==4.0.0
-openai==0.28.1
-pillow==10.0.1
-moviepy==1.0.3
-requests==2.31.0
-python-dotenv==1.0.0
+flask
+flask-cors
+openai
+pillow
+moviepy
+requests
+python-dotenv
