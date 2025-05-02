@@ -4,6 +4,7 @@ import subprocess
 import base64
 import shutil
 import sys
+import traceback
 from openai import OpenAI, APIError  # Import APIError for better error handling
 
 # --- 配置 ---
@@ -63,14 +64,19 @@ def generate_image(prompt, output_path, scene_index):
             return False
 
     except APIError as e:
-        print(f"错误：调用 OpenAI API 时出错 (场景 {scene_index + 1})。")
-        print(f"  状态码: {e.status_code}")
-        print(f"  响应: {e.response}")
-        print(f"  提示: {full_prompt}")
-        # 检查是否是无效模型错误
-        if "invalid_model" in str(e).lower() or (hasattr(e, 'code') and e.code == 'invalid_request_error'):
-             print(f"\n  提示: 检测到无效模型错误。您可能需要将脚本中的 IMAGE_MODEL 从 '{IMAGE_MODEL}' 更改为 'dall-e-3'。\n")
-        return False
+            # 最简单地打印出异常本身
+            print("APIError:", e)
+            # 如果你想看更详细的 HTTP 响应体
+            try:
+                print("HTTP response body:", e.response)
+            except AttributeError:
+                pass
+            # 打印堆栈信息，帮助定位到底哪一行发生了错误
+            traceback.print_exc()
+            # (原来的无效模型提示)
+            if "invalid_model" in str(e).lower() or (hasattr(e, 'code') and e.code == 'invalid_request_error'):
+                print(f"\n  提示: 检测到无效模型错误。您可能需要将脚本中的 IMAGE_MODEL 从 '{IMAGE_MODEL}' 更改为 'dall-e-3'。\n")
+            return False
     except Exception as e:
         print(f"错误：生成图片时发生未知错误 (场景 {scene_index + 1}): {e}")
         return False
@@ -109,6 +115,7 @@ def create_video_segment(image_path, audio_path, output_segment_path, scene_inde
             "-c:a", "aac",          # 音频编解码器
             "-b:a", "192k",         # 音频比特率
             "-shortest",            # 使输出时长与最短的输入（音频）匹配
+            "-y",                   # 覆盖输出文件
             output_segment_path     # 输出视频片段文件
         ]
 
@@ -146,6 +153,7 @@ def concatenate_videos(segment_list_path, output_video_path):
             "-safe", "0",           # 允许不安全的（例如，相对）文件名
             "-i", segment_list_path,# 输入片段列表文件
             "-c", "copy",           # 直接复制代码流，不重新编码
+            "-y",              # 覆盖输出文件
             output_video_path       # 输出最终视频文件
         ]
         # 执行命令
