@@ -43,7 +43,7 @@ Your response should include:
 8. Brief **Explanation of the Flowchart**.
 
 Use the following format in your response:
----
+
 **Business Summary:**
 (Overview of the project problem or opportunity)
 
