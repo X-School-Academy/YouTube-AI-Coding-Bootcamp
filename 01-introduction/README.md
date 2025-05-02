@@ -77,7 +77,11 @@ Here are my project requirements:
 
 bala bala ...
 
-### 3. Ask AI to Summarize Completed Work
+### 3. Ask AI to write the code
+
+> Just combine sections #1 and #2 into a whole message and send it to the AI.
+
+### 4. Ask AI to Summarize Completed Work
 
 Please briefly summarize this project according to the following points:
 
@@ -87,7 +91,7 @@ Please briefly summarize this project according to the following points:
 4. **Frontend and Backend Guide**: Include coding standards, architecture patterns, folder structure, API protocol conventions, testing strategies, and styling rules separately for client-side and server-side.
 5. **APIs, SDKs, and Technical References**: Consolidate all external dependencies—third-party APIs, SDKs, libraries, and platforms—with endpoints, version numbers, configuration examples, and quick start instructions.
 
-### 4. AI-Generated Key Learning Points for Vibe Learning
+### 5. AI-Generated Key Learning Points for Vibe Learning
 
 I'm currently learning how to use AI for Vibe Coding through Vibe Learning. Here's an overview of Vibe Coding and Vibe Learning:
 
