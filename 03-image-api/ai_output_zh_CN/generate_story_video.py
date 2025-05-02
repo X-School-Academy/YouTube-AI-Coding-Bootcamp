@@ -1,3 +1,12 @@
+'''
+Bugfixes: from commit e5cdf0cbb0ee65bd99b13a39faed5e3ff6d5d489
+- comment out response_format="b64_json" 
+- api key error handling
+- error message printing
+- traceback printing
+- ffmepg -y error in process.run
+- impprove the code to reuse image generated when error
+'''
 import json
 import os
 import subprocess
